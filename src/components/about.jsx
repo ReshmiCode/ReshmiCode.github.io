@@ -66,16 +66,38 @@ class About extends React.Component {
         <div className="container">
           <div className="box-shadow-full">
             <div className="about-me pt-4 pt-md-0">
-              <div className="title-box-2">
-                <h5 className="title-left">About Me</h5>
-              </div>
-              {this.state.about_me.map((content) => {
-                return (
-                  <p className="lead" key={content.id}>
-                    {content.content}
-                  </p>
-                );
-              })}
+            <div className="row">
+                    <div className="col-md-6">
+                      <div className="title-box-2">
+                        <h5 className="title-left">About Me</h5>
+                      </div>
+                      <div>
+                        <p className="lead">Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua.
+                        <br />
+                        Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="title-box-2 pt-4 pt-md-0">
+                        <h5 className="title-left">Recent Highlights</h5>
+                      </div>
+                      <div className="more-info">
+                        <ul>
+                          <li>
+                            <p className="lead">
+                              whoa something coolio
+                            </p>
+                          </li>
+                          <li>
+                            <p className="lead">
+                              whoa something else coolio
+                            </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
             </div>
           </div>
         </div>
