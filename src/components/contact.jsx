@@ -1,5 +1,6 @@
 import React from "react";
 import imageOverlay from "../img/earth.jpg";
+import blogPost from "../img/image6.jpg";
 
 class Contact extends React.Component {
   render() {
@@ -17,10 +18,40 @@ class Contact extends React.Component {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="title-box-2">
-                        <h5 className="title-left">Send A Message</h5>
+                        <h5 className="title-left">Today I Learned Blog</h5>
                       </div>
                       <div>
-                        <p className="lead">hewwo</p>
+                        <p className="lead">
+                          Over quarantine, I started a today I learned blog on
+                          my tumblr. Here is one of my posts and click on it to
+                          see more!
+                        </p>
+                        <div className="work-box">
+                          <a
+                            href="https://simplyprogramming.tumblr.com/"
+                            target="_blank"
+                          >
+                            <div className="work-content">
+                              <div className="row">
+                                <div className="col-sm-12">
+                                  <h2 className="w-title">Open Source</h2>
+                                  <p>
+                                    I contributed to open source for the first
+                                    time today! It was through GHC’s OOD and I
+                                    helped on a website that encourages others
+                                    to participate in OO as well by listing
+                                    projects by its members. I improved the
+                                    styling for an element and added a button
+                                    which also required styling. I noticed when
+                                    changing the button that they had redundant
+                                    code based on the current auth so I
+                                    refactored it!
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
                       </div>
                     </div>
                     <div className="col-md-6">
@@ -84,8 +115,7 @@ class Contact extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <div className="copyright-box">
-                </div>
+                <div className="copyright-box"></div>
               </div>
             </div>
           </div>
