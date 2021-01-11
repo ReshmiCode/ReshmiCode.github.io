@@ -232,6 +232,6 @@ const dataExamples = [
     },
     subtitle: "Took AP Computer Science A",
     content:
-      "My first experience in CS. This class is what inspired me to pursue it further and I have taken a CS class every year since.",
+      "My first experience in CS. This class is what inspired me to pursue it further and I have taken a CS class every year since. I also later TAed for this class.",
   },
 ];
