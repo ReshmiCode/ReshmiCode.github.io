@@ -1,3 +1,25 @@
 {
-  "title": "Sample"
+  "projects": [
+    {
+      "title": "Recycle Bun",
+      "image": "/img/RecycleBun.jpg",
+      "tech": "Unity C#",
+      "description": "This is the first game I've made and I love how it turned out! The design is really cute. Gaming is also what inspired me to learn CS.",
+      "url": "https://devpost.com/software/recycle-bun"
+    },
+    {
+      "title": "MoneyMoneyMoney",
+      "image": "/img/Money.jpg",
+      "tech": "HTML CSS JS Python",
+      "description": "This was our second google extension we made, but I love how creative the idea is. I always find myself second guessing my purchases and this would definitely help put prices in context.",
+      "url": "https://devpost.com/software/moneymoneymoney"
+    },
+    {
+      "title": "ProductiviTree",
+      "image": "/img/ProductiviTree.jpg",
+      "tech": "React-Native Express Node MongoDB",
+      "description": "This was our first long term hackathon, thus we were able to implement better programming practices. This was also the first project I worked on the backend for.",
+      "url": "https://devpost.com/software/productivitree"
+    }
+  ]
 }

@@ -1,109 +1,85 @@
-import React from "react";
-import myImage from "../img/myImage.png";
+import React, { useState } from "react";
+import CountUp from "react-countup";
 
-class About extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
-        {
-          id: "JavaScript_skill",
-          content: "JavaScript",
-          porcentage: "90%",
-          value: "90",
-        },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
-        {
-          id: "ReactJS_skill",
-          content: "ReactJS",
-          porcentage: "80%",
-          value: "80",
-        },
-        {
-          id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75",
-        },
-        {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85",
-        },
-        {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "80%",
-          value: "80",
-        },
-      ],
-      about_me: [
-        {
-          id: "first-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.",
-        },
-        {
-          id: "second-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.",
-        },
-        {
-          id: "third-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.",
-        },
-      ],
-    };
-  }
+const About = () => {
+  const [showNumbs, setShowNumbs] = useState(false);
 
-  render() {
-    return (
-      <section id="about" className="about-mf sect-pt4 route">
-        <div className="container">
-          <div className="box-shadow-full">
-            <div className="about-me pt-4 pt-md-0">
+  const handleClick = (e) => {
+    e.preventDefault();
+    setShowNumbs((prev) => !prev);
+  };
+
+  return (
+    <section id="about" className="about-mf sect-pt4 route">
+      <div className="container">
+        <div className="box-shadow-full">
+          <div className="about-me pt-4 pt-md-0">
             <div className="row">
-                    <div className="col-md-6">
-                      <div className="title-box-2">
-                        <h5 className="title-left">About Me</h5>
-                      </div>
-                      <div>
-                        <p className="lead">Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua.
-                        <br />
-                        Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left">Recent Highlights</h5>
-                      </div>
-                      <div className="more-info">
-                        <ul>
-                          <li>
-                            <p className="lead">
-                              whoa something coolio
-                            </p>
-                          </li>
-                          <li>
-                            <p className="lead">
-                              whoa something else coolio
-                            </p>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
+              <div className="col-md-6">
+                <div className="title-box-2">
+                  <h5 className="title-left">About Me</h5>
+                </div>
+                <div>
+                  <p className="lead">
+                    I stumbled on my passion for Computer Science by accident.
+                    Since then, I have been passionate about introducing others
+                    to STEM.
+                    <br />
+                    I am a senior at the University of Texas at Dallas majoring
+                    in Software Engineering with an application domain in
+                    Artificial Intelligence. I have a background in
+                    Object-Oriented Programming, Mobile App Development, Full
+                    Stack Development, and Quality Assurance.
+                    <br />I am dedicated, hardworking, and excited about
+                    providing real contributions. I never get tired of learning.
+                    I always seeking opportunities to explore different
+                    subfields of Computer Science to help decide what to pursue
+                    in the future and exploring different topics.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="title-box-2 pt-4 pt-md-0">
+                  <h5 className="title-left">The Numbers</h5>
+                </div>
+                <div className="more-info">
+                  {!showNumbs && (
+                    <button
+                      className="button button-a button-big button-rouded"
+                      onClick={handleClick}
+                    >
+                      Let's See!
+                    </button>
+                  )}
+                  {showNumbs && (
+                    <p className="lead">
+                      Participated in <CountUp end={29} /> hackathons
+                      <br />
+                      Honored with <CountUp end={14} /> hackathon awards
+                      <br />
+                      Received <CountUp end={10} /> internship offers
+                      <br />
+                      Involved in <CountUp end={9} /> clubs
+                      <br />
+                      Held <CountUp end={4} /> club leadership positions
+                      <br />
+                      Learning CS for <CountUp end={6} /> years
+                      <br />
+                      Had <CountUp end={5} /> internships
+                      <br />
+                      Acquired <CountUp end={4} /> scholarships for college
+                      <br />
+                      Earned <CountUp end={3} /> digital certificates
+                    </p>
+                  )}
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-    );
-  }
-}
+      </div>
+    </section>
+  );
+};
 
 export default About;
