@@ -100,13 +100,13 @@ const eventTypes = {
 const dataExamples = [
   {
     props: {
-      date: "December 2020",
+      date: "Dec 2020 - current",
       ...eventTypes.work,
     },
     // title: "can put something here",
     subtitle: "ACM Education Director",
     content:
-      "I started as an Education Officer in ACM in January of 2020, but I became for Director of Education. I currently oversee the Mentor Program, the pilot of a Technical Interview Prep Program, and the technical workshops our club has over the semester.",
+      "I started as an Education Officer in ACM in January of 2020, but I was selected to be the Director of Education. I currently oversee the Mentor Program, the pilot of a Technical Interview Prep Program, and the technical workshops of the club.",
   },
   {
     props: {

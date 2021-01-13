@@ -32,9 +32,9 @@ const About = () => {
                     Stack Development, and Quality Assurance.
                     <br />I am dedicated, hardworking, and excited about
                     providing real contributions. I never get tired of learning.
-                    I always seeking opportunities to explore different
-                    subfields of Computer Science to help decide what to pursue
-                    in the future and exploring different topics.
+                    I am always seeking opportunities to explore different
+                    subfields and topics within Computer Science to help decide
+                    what to pursue in the future.
                   </p>
                 </div>
               </div>
@@ -57,15 +57,18 @@ const About = () => {
                       <br />
                       Honored with <CountUp end={14} /> hackathon awards
                       <br />
+                      Organized a <CountUp end={12} /> hour meetup with{" "}
+                      <CountUp end={37} /> events
+                      <br />
                       Received <CountUp end={10} /> internship offers
                       <br />
                       Involved in <CountUp end={9} /> clubs
                       <br />
-                      Held <CountUp end={4} /> club leadership positions
-                      <br />
                       Learning CS for <CountUp end={6} /> years
                       <br />
                       Had <CountUp end={5} /> internships
+                      <br />
+                      Held <CountUp end={4} /> club leadership positions
                       <br />
                       Acquired <CountUp end={4} /> scholarships for college
                       <br />
