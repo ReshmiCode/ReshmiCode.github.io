@@ -28,6 +28,10 @@ import Timeline from "./components/timeline.jsx";
 import Contact from "./components/contact.jsx";
 import BackToTop from "./components/back-top.jsx";
 import Preloader from "./components/preloader";
+import ReactGA from "react-ga";
+
+ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS);
+ReactGA.pageview(window.location.pathname);
 
 ReactDOM.render(
   <React.Fragment>
