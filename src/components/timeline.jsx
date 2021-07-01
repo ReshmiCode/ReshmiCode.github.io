@@ -100,10 +100,28 @@ const eventTypes = {
 const dataExamples = [
   {
     props: {
-      date: "Dec 2020 - current",
+      date: "May 2021 - August 2021",
       ...eventTypes.work,
     },
     // title: "can put something here",
+    subtitle: "Software Development Intern at Intuit",
+    content:
+      "I wanted to get out of Texas this summer and I was able to get an offer in California which unfortunately went virtual due to the pandemic. I am learning a lot though as I am working on creating a CLI using NodeJS and GraphQL. I was also able to reconnect with GWC through Intuit's program by being on an Early Careers panel and holding a workshop on resumes and LinkedIn.",
+  },
+  {
+    props: {
+      date: "May 2021",
+      ...eventTypes.school,
+    },
+    subtitle: "Graduated",
+    content:
+      "I graduated with my Bachelor's of Science in Software Engineering! I graduated with Collegium V Honors, Summa Cum Laude, and a departmental Certificate of Excellence. Through the fast track program, I only need one more year to get my Masters.",
+  },
+  {
+    props: {
+      date: "Dec 2020 - current",
+      ...eventTypes.work,
+    },
     subtitle: "ACM Education Director",
     content:
       "I started as an Education Officer in ACM in January of 2020, but I was selected to be the Director of Education. I currently oversee the Mentor Program, the pilot of a Technical Interview Prep Program, and the technical workshops of the club.",
