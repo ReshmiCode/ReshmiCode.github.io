@@ -25,16 +25,14 @@ const About = () => {
                     Since then, I have been passionate about introducing others
                     to STEM.
                     <br />
-                    I am a senior at the University of Texas at Dallas majoring
-                    in Software Engineering with an application domain in
-                    Artificial Intelligence. I have a background in
+                    I am Master's student at the University of Texas at Dallas majoring
+                    in Software Engineering. I have a background in
                     Object-Oriented Programming, Mobile App Development, Full
                     Stack Development, and Quality Assurance.
                     <br />I am dedicated, hardworking, and excited about
                     providing real contributions. I never get tired of learning.
                     I am always seeking opportunities to explore different
-                    subfields and topics within Computer Science to help decide
-                    what to pursue in the future.
+                    subfields and topics within Computer Science.
                   </p>
                 </div>
               </div>
@@ -53,9 +51,9 @@ const About = () => {
                   )}
                   {showNumbs && (
                     <p className="lead">
-                      Participated in <CountUp end={29} /> hackathons
+                      Participated in <CountUp end={33} /> hackathons
                       <br />
-                      Honored with <CountUp end={14} /> hackathon awards
+                      Honored with <CountUp end={18} /> hackathon awards
                       <br />
                       Organized a <CountUp end={12} /> hour meetup with{" "}
                       <CountUp end={37} /> events
@@ -63,6 +61,8 @@ const About = () => {
                       Received <CountUp end={10} /> internship offers
                       <br />
                       Involved in <CountUp end={9} /> clubs
+                      <br />
+                      Received <CountUp end={7} /> full-time offers
                       <br />
                       Learning CS for <CountUp end={6} /> years
                       <br />
