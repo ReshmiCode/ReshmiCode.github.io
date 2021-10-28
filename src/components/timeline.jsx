@@ -100,6 +100,25 @@ const eventTypes = {
 const dataExamples = [
   {
     props: {
+      date: "October 2021",
+      ...eventTypes.personal,
+    },
+    subtitle: "HackDFW 1st Place and Sponsor Prize Winner",
+    content:
+      "Out of 90+ submissions, we placed first in HackDFW, our first in-person hackathon since covid started!",
+  },
+  {
+    props: {
+      date: "August 2021 - current",
+      ...eventTypes.work,
+    },
+    // title: "can put something here",
+    subtitle: "Backend Development Intern at Broadleaf",
+    content:
+      "I started working part-time at Broadleaf, working on their microservices. It's one of the first times I get tickets off a backlog like what I'd expect in full-time work.",
+  },
+  {
+    props: {
       date: "May 2021 - August 2021",
       ...eventTypes.work,
     },
