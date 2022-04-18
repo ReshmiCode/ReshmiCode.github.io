@@ -114,7 +114,7 @@ const dataExamples = [
     },
     subtitle: "ACM Co-VP",
     content:
-      "Out of 90+ submissions, we placed first in HackDFW, our first in-person hackathon since covid started!",
+      "I was elected to be one of the vice presidents of ACM, overseeing the 70+ officer team of 8 divisons. I work on various tasks for the overall wellbeing of the club.",
   },
   {
     props: {
