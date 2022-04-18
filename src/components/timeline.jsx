@@ -100,6 +100,24 @@ const eventTypes = {
 const dataExamples = [
   {
     props: {
+      date: "January 2022 - current",
+      ...eventTypes.work,
+    },
+    subtitle: "Software Development Intern at Motio",
+    content:
+      "I pull off available tickets as any regular dev during this internship. The product is a version control for BI platforms which is really interesting to learn how it works.",
+  },
+  {
+    props: {
+      date: "December 2021 - current",
+      ...eventTypes.school,
+    },
+    subtitle: "ACM Co-VP",
+    content:
+      "Out of 90+ submissions, we placed first in HackDFW, our first in-person hackathon since covid started!",
+  },
+  {
+    props: {
       date: "October 2021",
       ...eventTypes.personal,
     },
@@ -109,20 +127,19 @@ const dataExamples = [
   },
   {
     props: {
-      date: "August 2021 - current",
+      date: "August 2021 - December 2021",
       ...eventTypes.work,
     },
     // title: "can put something here",
     subtitle: "Backend Development Intern at Broadleaf",
     content:
-      "I started working part-time at Broadleaf, working on their microservices. It's one of the first times I get tickets off a backlog like what I'd expect in full-time work.",
+      "I started working part-time at Broadleaf, working on their microservices in their eCommerce platform. It was the first time I got tickets off a backlog like what I'd expect in full-time work.",
   },
   {
     props: {
       date: "May 2021 - August 2021",
       ...eventTypes.work,
     },
-    // title: "can put something here",
     subtitle: "Software Development Intern at Intuit",
     content:
       "I wanted to get out of Texas this summer and I was able to get an offer in California which unfortunately went virtual due to the pandemic. I am learning a lot though as I am working on creating a CLI using NodeJS and GraphQL. I was also able to reconnect with GWC through Intuit's program by being on an Early Careers panel and holding a workshop on resumes and LinkedIn.",
@@ -138,12 +155,12 @@ const dataExamples = [
   },
   {
     props: {
-      date: "Dec 2020 - current",
-      ...eventTypes.work,
+      date: "Dec 2020 - Dec 2021",
+      ...eventTypes.school,
     },
-    subtitle: "ACM Education Director",
+    subtitle: "ACM Director of Education",
     content:
-      "I started as an Education Officer in ACM in January of 2020, but I was selected to be the Director of Education. I currently oversee the Mentor Program, the pilot of a Technical Interview Prep Program, and the technical workshops of the club.",
+      "I started as an Education Officer in ACM in January of 2020, but I was selected to be the Director of Education. I oversaw the Mentor Program, the pilot of a Technical Interview Prep Program, and the technical workshops of the club.",
   },
   {
     props: {

@@ -51,22 +51,22 @@ const About = () => {
                   )}
                   {showNumbs && (
                     <p className="lead">
-                      Participated in <CountUp end={33} /> hackathons
+                      Participated in <CountUp end={35} /> hackathons
                       <br />
-                      Honored with <CountUp end={18} /> hackathon awards
+                      Honored with <CountUp end={19} /> hackathon awards
                       <br />
-                      Organized a <CountUp end={12} /> hour meetup with{" "}
+                      Organized a <CountUp end={12} /> hour meetup with
                       <CountUp end={37} /> events
                       <br />
-                      Received <CountUp end={10} /> internship offers
+                      Received <CountUp end={11} /> internship offers
                       <br />
                       Involved in <CountUp end={9} /> clubs
                       <br />
-                      Received <CountUp end={7} /> full-time offers
+                      Received <CountUp end={8} /> full-time offers
                       <br />
-                      Learning CS for <CountUp end={6} /> years
+                      Learning CS for <CountUp end={7} /> years
                       <br />
-                      Had <CountUp end={5} /> internships
+                      Had <CountUp end={6} /> internships
                       <br />
                       Held <CountUp end={4} /> club leadership positions
                       <br />
