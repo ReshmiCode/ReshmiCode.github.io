@@ -25,13 +25,11 @@ const About = () => {
                     Since then, I have been passionate about introducing others
                     to STEM.
                     <br />
-                    I will start in the Technology Development Program at Capital One.
+                    I will start in the Technology Development Program at Capital One in August 2022.
+                    <br />
                     I am dedicated, hardworking, and excited about
                     providing real contributions. I never get tired of learning.
-                    <br />
-                    I received both my Masters and Bachelors at the University of Texas at Dallas
-                    in Software Engineering in four years. I have a background in
-                    Object-Oriented Programming, Mobile App Development, Full
+                    I have a background in Object-Oriented Programming, Mobile App Development, Full
                     Stack Development, and Quality Assurance. I am always seeking opportunities
                     to explore different subfields and topics within Computer Science.
                   </p>

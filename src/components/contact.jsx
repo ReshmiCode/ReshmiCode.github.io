@@ -1,6 +1,5 @@
 import React from "react";
 import imageOverlay from "../img/earth.jpg";
-import blogPost from "../img/image6.jpg";
 
 class Contact extends React.Component {
   render() {
