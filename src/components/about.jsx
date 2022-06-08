@@ -25,14 +25,15 @@ const About = () => {
                     Since then, I have been passionate about introducing others
                     to STEM.
                     <br />
-                    I am Master's student at the University of Texas at Dallas majoring
-                    in Software Engineering. I have a background in
-                    Object-Oriented Programming, Mobile App Development, Full
-                    Stack Development, and Quality Assurance.
-                    <br />I am dedicated, hardworking, and excited about
+                    I will start in the Technology Development Program at Capital One.
+                    I am dedicated, hardworking, and excited about
                     providing real contributions. I never get tired of learning.
-                    I am always seeking opportunities to explore different
-                    subfields and topics within Computer Science.
+                    <br />
+                    I received both my Masters and Bachelors at the University of Texas at Dallas
+                    in Software Engineering in four years. I have a background in
+                    Object-Oriented Programming, Mobile App Development, Full
+                    Stack Development, and Quality Assurance. I am always seeking opportunities
+                    to explore different subfields and topics within Computer Science.
                   </p>
                 </div>
               </div>
@@ -53,10 +54,9 @@ const About = () => {
                     <p className="lead">
                       Participated in <CountUp end={35} /> hackathons
                       <br />
-                      Honored with <CountUp end={19} /> hackathon awards
+                      Organized <CountUp end={30} /> workshops/socials
                       <br />
-                      Organized a <CountUp end={12} /> hour meetup with
-                      <CountUp end={37} /> events
+                      Honored with <CountUp end={19} /> hackathon awards
                       <br />
                       Received <CountUp end={11} /> internship offers
                       <br />
@@ -72,7 +72,9 @@ const About = () => {
                       <br />
                       Acquired <CountUp end={4} /> scholarships for college
                       <br />
-                      Earned <CountUp end={3} /> digital certificates
+                      Obtained <CountUp end={3} /> digital certificates
+                      <br />
+                      Earned <CountUp end={2} /> degrees
                     </p>
                   )}
                 </div>

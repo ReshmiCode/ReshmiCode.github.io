@@ -100,21 +100,30 @@ const eventTypes = {
 const dataExamples = [
   {
     props: {
-      date: "January 2022 - current",
+      date: "May 2022",
+      ...eventTypes.school,
+    },
+    subtitle: "Graduated",
+    content:
+      "I graduated with my Master's of Science in Software Engineering! This brings me to two degrees within my four years at UTD.",
+  },
+  {
+    props: {
+      date: "January 2022 - May 2022",
       ...eventTypes.work,
     },
     subtitle: "Software Development Intern at Motio",
     content:
-      "I pull off available tickets as any regular dev during this internship. The product is a version control for BI platforms which is really interesting to learn how it works.",
+      "I took available tickets as any regular dev during this internship. The product was a version control for BI platforms which is really interesting to learn how it works.",
   },
   {
     props: {
-      date: "December 2021 - current",
+      date: "December 2021 - May 2022",
       ...eventTypes.school,
     },
     subtitle: "ACM Co-VP",
     content:
-      "I was elected to be one of the vice presidents of ACM, overseeing the 70+ officer team of 8 divisons. I work on various tasks for the overall wellbeing of the club.",
+      "I was elected to be one of the vice presidents of ACM, overseeing the 70+ officer team of 8 divisons. I worked on various tasks for the overall wellbeing of the club.",
   },
   {
     props: {
