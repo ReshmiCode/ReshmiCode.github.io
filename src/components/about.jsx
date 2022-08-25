@@ -25,13 +25,12 @@ const About = () => {
                     Since then, I have been passionate about introducing others
                     to STEM.
                     <br />
-                    I will start in the Technology Development Program at Capital One in August 2022.
-                    <br />
-                    I am dedicated, hardworking, and excited about
+                    I am currently working as Associate Software Engineer at
+                    Capital One.
+                    <br />I have a background in Object-Oriented Programming,
+                    Mobile App Development, Full Stack Development, and Quality
+                    Assurance. I am dedicated, hardworking, and excited about
                     providing real contributions. I never get tired of learning.
-                    I have a background in Object-Oriented Programming, Mobile App Development, Full
-                    Stack Development, and Quality Assurance. I am always seeking opportunities
-                    to explore different subfields and topics within Computer Science.
                   </p>
                 </div>
               </div>
@@ -61,8 +60,6 @@ const About = () => {
                       Involved in <CountUp end={9} /> clubs
                       <br />
                       Received <CountUp end={8} /> full-time offers
-                      <br />
-                      Learning CS for <CountUp end={7} /> years
                       <br />
                       Had <CountUp end={6} /> internships
                       <br />

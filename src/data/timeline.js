@@ -13,9 +13,9 @@ const eventTypes = {
   },
   school: {
     className: "vertical-timeline-element--education",
-    contentStyle: { background: "#8537d4", color: "#fff" },
-    contentArrowStyle: { borderRight: "7px solid #8537d4" },
-    iconStyle: { background: "#8537d4", color: "#fff" },
+    contentStyle: { background: "#8944cf", color: "#fff" },
+    contentArrowStyle: { borderRight: "7px solid #8944cf" },
+    iconStyle: { background: "#8944cf", color: "#fff" },
     icon: <SchoolIcon />,
   },
   personal: {
@@ -28,6 +28,15 @@ const eventTypes = {
 };
 
 export const timelineEvents = [
+  {
+    props: {
+      date: "August 2022 - current",
+      ...eventTypes.work,
+    },
+    subtitle: "Associate Software Engineer at Capital One",
+    content:
+      "I joined C1's Technology Development Program and get to rotate through 2 roles within 2 years. I'm currently in the Financial Services Tech and Data business, working in Payments.",
+  },
   {
     props: {
       date: "May 2022",

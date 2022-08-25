@@ -4,14 +4,14 @@
       "title": "Recycle Bun",
       "image": "/img/RecycleBun.jpg",
       "tech": "Unity C#",
-      "description": "This is the first game I've made and I love how it turned out! The design is really cute. Gaming is also what inspired me to learn CS.",
+      "description": "This is the first game I've made and I love how it turned out! The design and art style is really cute. Gaming is also what inspired me to start to learn CS.",
       "url": "https://devpost.com/software/recycle-bun"
     },
     {
       "title": "MoneyMoneyMoney",
       "image": "/img/Money.jpg",
       "tech": "HTML CSS JS Python",
-      "description": "This was our second google extension we made, but I love how creative the idea is. I always find myself second guessing my purchases and this would definitely help put prices in context.",
+      "description": "This was a google chrome extension we made, and I love how creative the idea is. I always find myself second guessing my purchases and this helps put prices in context.",
       "url": "https://devpost.com/software/moneymoneymoney"
     },
     {
