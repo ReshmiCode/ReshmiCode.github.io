@@ -30,12 +30,39 @@ const eventTypes = {
 export const timelineEvents = [
   {
     props: {
+      date: "August 2026 - current",
+      ...eventTypes.work,
+    },
+    subtitle: "Full-stack Engineer 3 at Capital One",
+    content:
+      "I am currently in the Protect Me From Fraud space where we work on new products on ProtectID.",
+  },
+  {
+    props: {
       date: "August 2022 - current",
+      ...eventTypes.personal,
+    },
+    subtitle: "Hackathon Partnership Lead at Capital One",
+    content:
+      "As soon as I joined Capital One, I found out how to and joined the hackathon space. I grew from being a mentor, to weekend lead, to event lead, and now am the Partnership Lead.",
+  },
+  {
+    props: {
+      date: "August 2024 - August 2026",
+      ...eventTypes.work,
+    },
+    subtitle: "Software Engineer at Capital One",
+    content:
+      "I rotated into Dealer, in the Fund My Deal/Protect Me From Fraud Space where we launched ProtectID and owned income verification flows.",
+  },
+  {
+    props: {
+      date: "August 2022 - August 2024",
       ...eventTypes.work,
     },
     subtitle: "Associate Software Engineer at Capital One",
     content:
-      "I joined C1's Technology Development Program and get to rotate through 2 roles within 2 years. I'm currently in the Financial Services Tech and Data business, working in Payments.",
+      "I joined C1's Technology Development Program and get to rotate through 2 roles within 2 years. I started in Keep My Payments Simple in Financial Services Servicing divison.",
   },
   {
     props: {
