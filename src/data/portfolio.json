@@ -1,11 +1,11 @@
 {
   "projects": [
     {
-      "title": "Recycle Bun",
-      "image": "/img/RecycleBun.jpg",
-      "tech": "Unity C#",
-      "description": "This is the first game I've made and I love how it turned out! The design and art style is really cute. Gaming is also what inspired me to start to learn CS.",
-      "url": "https://devpost.com/software/recycle-bun"
+      "title": "Capital One ProtectID",
+      "image": "/img/protectid.png",
+      "tech": "Java Spring Boot Lit",
+      "description": "I was on the team when this project idea first started and it's been great seeing and helping develop the product. It grew from 2 verifications to 5+ different flows.",
+      "url": "https://www.capitalone.com/about/newsroom/capital-one-auto-unveils-real-time-fraud-detection-tool"
     },
     {
       "title": "MoneyMoneyMoney",

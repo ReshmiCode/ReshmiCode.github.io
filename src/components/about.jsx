@@ -25,8 +25,8 @@ const About = () => {
                     Since then, I have been passionate about introducing others
                     to STEM.
                     <br />
-                    I am currently working as Associate Software Engineer at
-                    Capital One.
+                    I am currently working as a Full-stack Engineer 3 at Capital
+                    One.
                     <br />I have a background in Object-Oriented Programming,
                     Mobile App Development, Full Stack Development, and Quality
                     Assurance. I am dedicated, hardworking, and excited about
@@ -55,11 +55,9 @@ const About = () => {
                       <br />
                       Honored with <CountUp end={19} /> hackathon awards
                       <br />
-                      Received <CountUp end={11} /> internship offers
+                      Been to <CountUp end={16} /> hackathons as a sponsor
                       <br />
                       Involved in <CountUp end={9} /> clubs
-                      <br />
-                      Received <CountUp end={8} /> full-time offers
                       <br />
                       Had <CountUp end={6} /> internships
                       <br />
@@ -67,7 +65,7 @@ const About = () => {
                       <br />
                       Acquired <CountUp end={4} /> scholarships for college
                       <br />
-                      Obtained <CountUp end={3} /> digital certificates
+                      Obtained <CountUp end={4} /> digital certificates
                       <br />
                       Earned <CountUp end={2} /> degrees
                     </p>
